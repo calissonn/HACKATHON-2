@@ -1,0 +1,50 @@
+.home {
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.home__heading {
+    font-family: 'Amatic SC', cursive;
+    font-size: 44px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.home__characters {
+
+}
+
+.home__characters__search {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.home__characters__search input{
+    width: 300px
+}
+
+.home__characters__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.home__controls {
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 20px;
+    background-color: #000;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #fff;
+}
+
