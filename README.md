@@ -36,5 +36,5 @@
 
 **API UTILIZADA NO SISTEMA** 
 
-* JSON SERVER 🌐
+* Rick and Morty 🌐
 
