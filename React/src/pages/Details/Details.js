@@ -42,23 +42,23 @@ function Details() {
           </section>
           <section className="details__table">
             <p>
-              Last known location: {character.location.name}
+            Última localização conhecida: {character.location.name}
             </p>
             <p>
-              First seen in: {character.origin.name}
+            Visto pela primeira vez em: {character.origin.name}
             </p>
-            <p>Seen in episodes: {getEpisodes(character.episode)}</p>
+            <p>Visto nos episódios: {getEpisodes(character.episode)}</p>
           </section>
         </>
       ) : (
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center' ,width: '100vw', height: '80vh'}}>
           <Spinner animation="border" role="status">
-            <span className="visually-hidden">Loading...</span>
+            <span className="visually-hidden">Carregando...</span>
           </Spinner>
         </div>
       )}
       <div className="details__controls">
-        <Button onClick={() => history(-1)} variant="light">Go back</Button>
+        <Button onClick={() => history(-1)} variant="light">Voltar</Button>
       </div>
     </div>
   )

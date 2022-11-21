@@ -57,15 +57,15 @@ function Home() {
       </section>
       <div className="home__controls">
         <form ref={refForm} onSubmit={(e) => apiRequest(1, e)} className="home__characters__search">
-          <input id="search" type='text' className="form-control"  placeholder="Type a character name"/>
-          <Button type="submit" variant="dark">Search</Button>
+          <input id="search" type='text' className="form-control"  placeholder="Pesquisar"/>
+          <Button type="submit" variant="dark">Buscar</Button>
         </form>
         {characters.info.prev && ( 
           <Button onClick={() => apiRequest(requestPage - 1)} variant="secondary">Previous page</Button>
         )}
         {requestPage}
         {characters.info.next && ( 
-          <Button onClick={() => apiRequest(requestPage + 1)} variant="light">Next page</Button>
+          <Button onClick={() => apiRequest(requestPage + 1)} variant="light">Proxíma pagina</Button>
         )}
   
       </div>
