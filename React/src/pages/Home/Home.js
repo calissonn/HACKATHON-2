@@ -61,7 +61,7 @@ function Home() {
           <Button type="submit" variant="dark">Buscar</Button>
         </form>
         {characters.info.prev && ( 
-          <Button onClick={() => apiRequest(requestPage - 1)} variant="secondary">Previous page</Button>
+          <Button onClick={() => apiRequest(requestPage - 1)} variant="secondary">Página anterior</Button>
         )}
         {requestPage}
         {characters.info.next && ( 
