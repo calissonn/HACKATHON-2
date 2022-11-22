@@ -37,8 +37,7 @@ function Home() {
   return (
     <div className="home">
       <section className="home__heading">
-        WUBBA LUBBA DUB DUB
-      </section>
+              </section>
       <section className="home__characters">
 
         <div className="home__characters__list">
