@@ -2,10 +2,11 @@
 
 **PASSO A PASSO DE COMO EXECUTAR OS PROJETOS**
 
-* REACT: PRIMEIRAMENTE O DEV PRECISA CLONAR O REPOSITÓRIO EM SUA MÁQUINA, PARA ISSO SERÁ PRECISO USAR O COMANDO "git clone" NO GIT BASH, ASSIM QUE ABRIR A PASTA DO PROJETO NO VISUAL STUDIO, ENTRE NO TERMINAL ULTILIZANDO O ATALHO "CTRL + J", ENTRE NA PASTA DO REACT VIA TERMINAL COM O COMANDO "cd React", A PARTIR DESSE MOMENTO ULTILIZE O COMANDO "npm install" PARA FAZER A INSTALAÇÃO DE UM PACOTE NO ARQUIVO (package.json) NA PASTA (node_modules) LOCAL. ASSIM QUE TIVER CONCLUÍDO TODOS ESSES PASSOS, BASTA INICIAR O PROJETO VIA TERMINAL COM O COMANDO "npm start", ELE EXECUTA UM COMANDO QUE É DEFINIDO NA PROPRIEDADE "start" DOS SCRIPTS. SE NÃO FOR DEFINIDO, ELE EXECUTARÁ O COMANDO "node server.js".
+* REACT: Primeiramente o dev precisa clonar o repositório em sua máquina, para isso será necessário usar o comando "git clone" no git bash, assim que abrir a pasta do projeto no Visual Studio, entre no terminal ultilizando o atalho "CTRL + J", entre na pasta do react via terminal com o comando "cd React", a partir desse momento ultilize o comando "npm install" para fazer a instalação de um pacote no arquivo (package.json) na pasta (node_modules) local. Assim que tiver concluído todos esses passos, basta iniciar o projeto via terminal com o comando "npm start", ele executa um comando que é definido na propriedade "start" dos scripts. Se não for definido, ele executará o comando "node server.js".
 
-* ANDROID: PRIMEIRAMENTE O DEV PRECISA CLONAR O REPOSITÓRIO EM SUA MÁQUINA, PARA ISSO SERÁ PRECISO USAR O COMANDO "git clone" NO GIT BASH, ASSIM QUE A PASTA DO REPOSITÓRIO ESTIVER CLONADA NA MÁQUINA, SERÁ PRECISO ABRIR A PASTA (Android) E DENTRO DELA SELECIONAR A PASTA (Hackathon22) PARA QUE SEJA ABERTO O PROJETO NO ANDROID STUDIO. ASSIM QUE TIVER CONCLUÍDO TODOS ESSES PROCESSOS, BASTA INICIAR O EMULADOR E DAR START NO PROJETO. A PARTIR DISSO, O SISTEMA ANDROID ESTARÁ RODANDO NO EMULADOR E O DEV PODERÁ DESFRUTAR DO MUNDO MOBILE. 
 
+* ANDROID: Primeiramente o dev precisa clonar o repositório em sua máquina, para isso será necessário usar o comando "git clone" no git bash, assim que a pasta do repositório estiver clonada na máquina, será preciso abrir a pasta (Android) e dentro dela selecionar a pasta (Hackathon22) para que seja aberto o projeto no Android Studio. Assim que tiver concluído todos esses processos, basta iniciar o emulador e dar start no projeto. A partir disso, o sistema android estará rodando no emulador e o dev poderá desfrutar do mundo mobile de rick and morty. 
+ 
 
 **DIVISÕES DE TAREFAS**
 
