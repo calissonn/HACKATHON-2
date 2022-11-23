@@ -22,16 +22,16 @@ public class DetalhesActivity extends AppCompatActivity {
         nome = findViewById(R.id.nome);
         imagem = findViewById(R.id.imagem);
 
-        //capturando o caminho de tela utilizado para abrir esta tela
+
         Intent dadosRecebidos = getIntent();
         if (dadosRecebidos != null) {
-            //capturando os dados recebidos no caminho de tela
+
             Bundle params = dadosRecebidos.getExtras();
             if (params != null) {
-                //adicionando o nome do pokemon no texto da tela
+
                 nome.setText(params.getString("name"));
 
-                //carregando a imagem da web no objeto imagem da tela
+
                 new DownloadImagem(imagem).execute(params.getString("imagem"));
             }
         }
