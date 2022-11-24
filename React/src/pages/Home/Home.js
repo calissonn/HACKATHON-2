@@ -42,7 +42,7 @@ function Home() {
       <section className="home__characters">
       {requestPage === 1 && <div>O projeto tem duas telas, sendo a primeira como apresentação do sistema e a segunda para consumir API.
       Assim que clicamos em um personagem, irá ser direcionado para uma segunda tela, aonde terá as informações trazidas pela API.
-      Nas informações contém a última localização conhecida, visto pela primeira vez e os episódios que cada personagem está presente.</div>}
+      Nas informações contém a última localização conhecida, visto pela primeira vez e os episódios que cada personagem está presente. </div>}
       
        </section>
        <br/>
