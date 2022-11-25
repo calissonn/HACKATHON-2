@@ -3,7 +3,13 @@
     margin: 0 auto;
     margin-bottom: 50px;
 }
+.header__imag {
+    width: 487px;
+    margin: 24px 50px;
+    margin-left: 357px;
+    cursor: pointer;
 
+}
 .home__heading {
     font-family: 'Source Sans Pro', cursive;
     font-size: 44px;

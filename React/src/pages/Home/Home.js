@@ -36,6 +36,7 @@ function Home() {
 
   return (
     <div className="home">
+        <img className="header__imag" src="/assets/Rick-e-Morty.jpeg" />
       <section className="home__heading">
       Quantos zumbis você matou?
               </section>

@@ -7,7 +7,7 @@ function Header() {
   const history = useNavigate()
   return (
     <header className="header">
-      <img className="header__logo" alt="logo" src="/assets/rick-morty.jpeg" onClick={() => history('/')} />
+      <img className="header__logo" alt="logo" src="/assets/rick.jpg" onClick={() => history('/')} />
       <h4 className="header__text" onClick={() => history('/')} >Rick and Morty</h4>
       <div  className="header__link">
       </div>
